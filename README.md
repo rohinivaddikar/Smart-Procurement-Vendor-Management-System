@@ -146,14 +146,19 @@ After successfully starting the application, open the web interface using the UR
 - **Web UI:** `http://localhost:8083/login`
 - **Swagger API Documentation:** Available if Swagger/OpenAPI is configured in the project.
 
-## 🔐 Authentication
+### 🔐 Authentication
 
-Log in using credentials configured for your local development environment. For security reasons, do not publish passwords or sensitive credentials in this repository.
- Default Demo Credentials
-Role	Username	Password
-Admin	admin	admin123
-Manager	manager	manager123
-Employee	employee	employee123
+Log in using the demo credentials configured for your local development environment.
+
+### 👥 Default Demo Credentials
+
+| Role | Username | Password |
+|---|---|---|
+| Admin | `admin` | `admin123` |
+| Manager | `manager` | `manager123` |
+| Employee | `employee` | `employee123` |
+
+**Security Note:** These credentials are for local development or demonstration purposes only. Change default passwords before deploying the application to a production environment.
 
 
 ## 👩‍💻 Author
