@@ -139,6 +139,22 @@ Suggestions and improvements are welcome.
 2. Create a branch for your changes.
 3. Implement and test your updates.
 4. Submit a pull request describing your contribution.
+ ## 🌐 Access the Application
+
+After successfully starting the application, open the web interface using the URL configured in `application.properties`.
+
+- **Web UI:** `http://localhost:8083/login`
+- **Swagger API Documentation:** Available if Swagger/OpenAPI is configured in the project.
+
+## 🔐 Authentication
+
+Log in using credentials configured for your local development environment. For security reasons, do not publish passwords or sensitive credentials in this repository.
+ Default Demo Credentials
+Role	Username	Password
+Admin	admin	admin123
+Manager	manager	manager123
+Employee	employee	employee123
+
 
 ## 👩‍💻 Author
 
